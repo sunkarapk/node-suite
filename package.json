@@ -1,0 +1,26 @@
+{
+  "name": "suite",
+  "description": "A simple diff based test suite for executable programs with outputs",
+  "version": "0.1.0",
+  "homepage": "http://pkumar.github.com/node-suite",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "contributors": [
+    { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
+  ],
+  "dependencies": {
+    "colors": "*"
+  },
+  "devDependencies": {},
+  "keywords": ["test", "suite", "diff", "executable", "binary"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pkumar/node-suite.git"
+  },
+  "main": "./lib/suite",
+  "scripts": {
+    "test": "./test/run $(find test -name *-test.js)"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  }
+}
