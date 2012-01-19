@@ -1,26 +1,44 @@
 {
   "name": "suite",
-  "description": "A simple diff based test suite for executable programs with outputs",
   "version": "0.1.0",
-  "homepage": "http://pkumar.github.com/node-suite",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "description": "A simple diff based test suite for executable programs with outputs",
+  "main": "./lib/suite",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pksunkara/node-suite.git"
+  },
+  "keywords": [
+    "test",
+    "suite",
+    "diff",
+    "executable",
+    "binary"
+  ],
+  "homepage": "http://pksunkara.github.com/nosqlite",
+  "scripts": {
+    "test": "./test/run $(find test -name *-test.js)"
+  },
   "contributors": [
-    { "name": "Pavan Kumar Sunkara", "email": "pavan.sss1991@gmail.com" }
+    {
+      "name": "Pavan Kumar Sunkara",
+      "email": "pavan.sss1991@gmail.com"
+    }
   ],
   "dependencies": {
     "colors": "*"
   },
   "devDependencies": {},
-  "keywords": ["test", "suite", "diff", "executable", "binary"],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/pkumar/node-suite.git"
-  },
-  "main": "./lib/suite",
-  "scripts": {
-    "test": "./test/run $(find test -name *-test.js)"
-  },
   "engines": {
     "node": ">=0.4.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pksunkara/node-suite/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pksunkara/node-suite/raw/master/LICENSE"
+    }
+  ]
 }
