@@ -1,7 +1,7 @@
 {
   "name": "suite",
   "version": "0.1.0",
-  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pkumar.github.com)",
+  "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "A simple diff based test suite for executable programs with outputs",
   "main": "./lib/suite",
   "repository": {
@@ -15,7 +15,7 @@
     "executable",
     "binary"
   ],
-  "homepage": "http://pksunkara.github.com/nosqlite",
+  "homepage": "http://pksunkara.github.com/node-suite",
   "scripts": {
     "test": "./test/run $(find test -name *-test.js)"
   },
