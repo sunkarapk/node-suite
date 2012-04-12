@@ -10,9 +10,35 @@ npm install suite
 
 ## Usage
 
+Let's say I want to test `genome` program and I have test directory at '/home/me/test' with structure
+
+```
+├── 001
+├── 002
+├── 003
+└─┬ 004
+  ├── answer
+  ├── input
+  └── program
+```
+
 ```js
 var suite = require('suite');
+
+var genome = suite('/usr/bin/genome', { prefix: '/home/me/test/' });
+
+genome.run(4, function () {
+  genome.statsput();
+});
 ```
+
+### Options
+
+* __prefix__: Prefix for the test directory
+* __program__: The filename of program in test directory (_default:_ program)
+* __input__: The filename of input in test directory (_default:_ input)
+* __answer__: The filename of answer in test directory (_default:_ answer)
+* __rjust__: The right padding if test case is number (_default:_ 3)
 
 If you like this project, please watch this and follow me.
 
