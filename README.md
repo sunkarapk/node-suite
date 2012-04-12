@@ -1,5 +1,4 @@
-# suite [![Build Status](https://secure.travis-ci.org/pkumar/node-suite.png)](http://travis-ci.org/pkumar/node-suite)
-
+# suite
 
 A simple diff based test suite for executable programs with outputs
 
@@ -41,11 +40,6 @@ genome.run(4, function () {
 * __rjust__: The right padding if test case is number (_default:_ 3)
 
 If you like this project, please watch this and follow me.
-
-### Testing
-```
-npm test
-```
 
 ## Contributors
 Here is a list of [Contributors](http://github.com/pkumar/node-suite/contributors)

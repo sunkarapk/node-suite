@@ -16,9 +16,6 @@
     "binary"
   ],
   "homepage": "http://pksunkara.github.com/node-suite",
-  "scripts": {
-    "test": "./test/run $(find test -name *-test.js)"
-  },
   "contributors": [
     {
       "name": "Pavan Kumar Sunkara",
