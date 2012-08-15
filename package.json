@@ -1,6 +1,6 @@
 {
   "name": "suite",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Pavan Kumar Sunkara <pavan.sss1991@gmail.com> (http://pksunkara.github.com)",
   "description": "A simple diff based test suite for executable programs with outputs",
   "main": "./lib/suite",
